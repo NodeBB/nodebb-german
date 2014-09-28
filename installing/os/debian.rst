@@ -156,7 +156,7 @@ Installiere NodeBB, indem du die App mit dem setup-Flag startest:
 	$ ./nodebb setup
 
 
-1. `URL of this installation` ist entweder deine öffentliche IP-Adresse oder ein Domainname, welcher auf diese IP-Adresse zeigt.
+1. ``URL of this installation`` ist entweder deine öffentliche IP-Adresse oder ein Domainname, welcher auf diese IP-Adresse zeigt.
     **Beispiel:** ``http://0.0.0.0`` oder ``http://beispiel.org``  
 
 2. ``Port number of your NodeBB`` ist der Port, auf dem NodeBB horcht und über den deine Website erreichbar ist:  
