@@ -2,16 +2,16 @@
 Arch Linux
 --------------------
 
-First, we install our base software stack.  Be sure to `pacman -Syu` first to make sure you've synced with the repositories and all other packages are up to date.
+Zuerst installieren wir unseren Basis-Software-Stack. Bitte verwende zuerst `pacman -Syu`, um mit den Repositories zu synchronisieren und alle anderen Pakete auf den neuesten Stand zu bringen.
 
 .. code:: bash
 
 	$ sudo pacman -S git nodejs redis imagemagick
 
 
-If you want to use MongoDB, LevelDB, or another database instead of Redis please look at the :doc:`Configuring Databases <../../configuring/databases>` section.
+Falls du MongoDB, LevelDB oder eine andere Datenbank-Software anstelle von Redis benutzen möchtest, wirf einen Blick auf die Sektion :doc:`Datenbanken konfigurieren <../../configuring/databases>`.
 
-Next, clone this repository:
+Als nächstes, klone dieses Repository:
 
 
 .. code:: bash
@@ -19,7 +19,7 @@ Next, clone this repository:
 	$ git clone git://github.com/NodeBB/NodeBB.git nodebb
 
 
-Obtain all of the dependencies required by NodeBB:
+Ziehe dir alle von NodeBB benötigten Abhängigkeiten:
 
 .. code:: bash
 
@@ -27,7 +27,7 @@ Obtain all of the dependencies required by NodeBB:
     $ npm install
 
 
-Initiate the setup script by running the app with the ``setup`` flag:
+Initialisiere das Setup-Script, indem du die App mit dem ``setup``-Flag startest:
 
 
 .. code:: bash
@@ -35,9 +35,9 @@ Initiate the setup script by running the app with the ``setup`` flag:
 	$ ./nodebb setup
 
 
-The default settings are for a local server running on the default port, with a redis store on the same machine/port. 
+Die Standard-Einstellungen sind für lokale Server gedacht, die auf dem Standardport laufen und Redis auf derselben Maschine/Port verwenden.
 
-Lastly, we run the forum.
+Als letztes starten wir noch das Forum...
 
 
 .. code:: bash
@@ -45,4 +45,4 @@ Lastly, we run the forum.
 	$ ./nodebb start
 
 
-NodeBB can also be started with helper programs, such as ``supervisor`` and ``forever``. :doc:`Take a look at the options here <../../running/index>`.
+NodeBB kann auch mit Hilfsprogrammen, wie ``supervisor`` und ``forever`` gestartet werden. :doc:`Schau dir die Möglichkeiten hier an <../../running/index>`.
