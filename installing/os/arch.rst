@@ -19,7 +19,7 @@ Als nächstes, klone dieses Repository:
 	$ git clone git://github.com/NodeBB/NodeBB.git nodebb
 
 
-Ziehe dir alle von NodeBB benötigten Abhängigkeiten:
+Lade dir alle von NodeBB benötigten Abhängigkeiten herunter:
 
 .. code:: bash
 
