@@ -1,11 +1,11 @@
 Installing NodeBB on the Cloud
 ==============================
 
-The following are step-by-step guides to help you get up and running on the cloud using popular PaaS solutions.
+Es folgen Schritt-für-Schritt-Anleitungen, die dich bei der Einrichtung von NodeBB in der Cloud unter Verwendung einer beliebten PaaS-Lösung unterstützen sollen.
 
 .. note::
 
-    If the PaaS solution of your choice is not listed here, please feel free to request a guide on our `community <https://community.nodebb.org>`_ or even better yet, submit one here.
+    Falls die PaaS-Lösung deiner Wahl hier nicht aufgelistet ist, darfst du gerne auf unserem `Forum <https://community.nodebb.org>`_ eine Anleitung anfordern. Oder noch besser: Schreib du eine!
 
 
 
@@ -23,6 +23,6 @@ The following are step-by-step guides to help you get up and running on the clou
 * :doc:`Heroku <cloud/heroku>`
 * :doc:`Nitrous.IO <cloud/nitrous>`
 * :doc:`Openshift <cloud/openshift>`
-* `Digital Ocean <http://burnaftercompiling.com/nodebb/setting-up-a-nodebb-forum-for-dummies/>`_ (external)
+* `Digital Ocean <http://burnaftercompiling.com/nodebb/setting-up-a-nodebb-forum-for-dummies/>`_ (extern, englisch)
 * :doc:`Koding.com <cloud/koding>`
-* `Codio <https://codio.com/s/docs/specifics/nodebb/>`_ (external)
+* `Codio <https://codio.com/s/docs/specifics/nodebb/>`_ (extern, englisch)
