@@ -45,4 +45,4 @@ Als letztes starten wir noch das Forum...
 	$ ./nodebb start
 
 
-NodeBB kann auch mit Hilfsprogrammen, wie ``supervisor`` und ``forever`` gestartet werden. :doc:`Schau dir die Möglichkeiten hier an <../../running/index>`.
+NodeBB kann auch mit Hilfsprogrammen wie ``supervisor`` und ``forever`` gestartet werden. :doc:`Schau dir die Möglichkeiten hier an <../../running/index>`.
